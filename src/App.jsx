@@ -12,8 +12,10 @@ function App() {
     <>
       <div id='wrapper'>
         <HeaderContent/>
-        <BodyContent/>
-        <FooterContent/>
+        <BodyContent>
+            <button>Click Here</button>
+        </BodyContent>
+
       </div>
     </>
   )
